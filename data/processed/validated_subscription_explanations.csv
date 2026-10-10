@@ -1,0 +1,12 @@
+merchant_name,risk_score,risk_level,validation_status,validation_issues,final_explanation
+NETFLIX,65,MEDIUM,FALLBACK,missing_expected_amount,"NETFLIX has a review-priority score of 65/100 (MEDIUM). A charge of approximately $22.99 is predicted for 2026-10-10, in 1 day(s). A previous subscription price increase was detected. Review the subscription and confirm whether you still want to keep it."
+PLANET FITNESS,40,MEDIUM,FALLBACK,unsupported_claim:set to expire,"PLANET FITNESS has a review-priority score of 40/100 (MEDIUM). A charge of approximately $24.99 is predicted for 2026-10-15, in 6 day(s). Review the subscription and confirm whether you still want to keep it."
+SPOTIFY,40,MEDIUM,PASSED,,"Here is a rewritten explanation:
+
+**Subscription Details**
+
+You have a Spotify subscription. A charge is predicted for October 15, 2026, approximately 6 days from now. The charge amount is around $11.99. Please review your subscription to confirm you still want to keep it."
+ADOBE,30,LOW,FALLBACK,missing_expected_amount,"ADOBE has a review-priority score of 30/100 (LOW). A charge of approximately $22.99 is predicted for 2026-10-20, in 11 day(s). Review the subscription and confirm whether you still want to keep it."
+MICROSOFT 365,20,LOW,FALLBACK,missing_expected_amount,"MICROSOFT 365 has a review-priority score of 20/100 (LOW). A charge of approximately $99.99 is predicted for 2027-03-12, in 154 day(s). The expected payment amount is relatively high. Review the subscription and confirm whether you still want to keep it."
+CANVA,20,LOW,FALLBACK,missing_merchant,"CANVA has a review-priority score of 20/100 (LOW). A charge of approximately $14.99 is predicted for 2026-10-30, in 21 day(s). Review the subscription and confirm whether you still want to keep it."
+ICLOUD,20,LOW,FALLBACK,missing_expected_amount; missing_expected_date; missing_duplicate_warning; missing_stale_prediction_warning,ICLOUD has a review-priority score of 20/100 (LOW). The predicted charge date of 2026-10-05 has passed. Check for a recent payment and refresh the prediction before relying on it. A possible duplicate charge was detected in the historical transactions. Review the subscription and confirm whether you still want to keep it.

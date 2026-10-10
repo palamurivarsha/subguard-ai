@@ -1,0 +1,3 @@
+transaction_id,merchant_name,transaction_date,amount,anomaly_type,previous_amount,percentage_change,description
+994f9efa-5d0c-478c-9e74-11640b924e67,ICLOUD,2026-01-05,2.99,duplicate_charge,2.99,0.0,Possible duplicate subscription charge within 3 days.
+9b656b06-2842-4be1-b403-f844b4d59dd2,NETFLIX,2026-01-10,22.99,price_increase,17.99,27.79,Charge differs from previous amount of $17.99.

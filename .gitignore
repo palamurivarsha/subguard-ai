@@ -1,0 +1,55 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs and backups
+*.log
+spark_output.txt
+*_backup.py
+*_backup.txt
+
+# Generated data
+data/synthetic/
+data/raw/
+# Ignore generated processed data by default
+data/processed/*
+
+# Include the five API demo CSV files
+!data/processed/detected_subscriptions.csv
+!data/processed/next_charge_predictions.csv
+!data/processed/subscription_anomalies.csv
+!data/processed/renewal_risk_scores.csv
+!data/processed/validated_subscription_explanations.csv
+
+# Ignore Parquet files
+*.parquet
+
+# Local database dumps
+*.sql
+*.db
+
+# Dependency snapshots
+requirements-current.txt
+# Old datasets and backups
+data/processed_old
+data/raw
+data/synthetic_backup
+# Allow the clean database schema
+!database/schema.sql

@@ -1,0 +1,12 @@
+.venv/
+.env
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+data/synthetic/
+data/raw/
+requirements-current.txt
+*.log

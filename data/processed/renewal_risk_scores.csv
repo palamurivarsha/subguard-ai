@@ -1,0 +1,8 @@
+merchant_name,as_of_date,predicted_next_charge_date,days_until_renewal,predicted_next_amount,urgency_score,amount_score,anomaly_score,confidence_score,risk_score,risk_level,needs_prediction_refresh,risk_reasons
+NETFLIX,2026-10-09,2026-10-10,1,22.99,40,10,15,0,65,MEDIUM,False,Renewal expected within 7 days; Historical price increase detected
+PLANET FITNESS,2026-10-09,2026-10-15,6,24.99,30,10,0,0,40,MEDIUM,False,Renewal expected within 7 days
+SPOTIFY,2026-10-09,2026-10-15,6,11.99,30,10,0,0,40,MEDIUM,False,Renewal expected within 7 days
+ADOBE,2026-10-09,2026-10-20,11,22.99,20,10,0,0,30,LOW,False,Renewal expected within 30 days
+MICROSOFT 365,2026-10-09,2027-03-12,154,99.99,0,20,0,0,20,LOW,False,High expected charge amount
+CANVA,2026-10-09,2026-10-30,21,14.99,10,10,0,0,20,LOW,False,Renewal expected within 30 days
+ICLOUD,2026-10-09,2026-10-05,-4,2.99,0,5,15,0,20,LOW,True,Predicted renewal date has passed; refresh prediction; Historical duplicate charge detected
